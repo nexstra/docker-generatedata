@@ -5,6 +5,7 @@
 # 	
 
 FROM tutum/apache-php
+ADD app /app
 RUN apt-get update && \
 	apt-get install -yq git php5-dev libpcre3-dev && \
 	rm -rf /var/lib/apt/lists/*

@@ -1,0 +1,15 @@
+version: '2'
+services:
+  web:
+    image: "114709661826.dkr.ecr.us-west-2.amazonaws.com/generatedata_web"
+    ports:
+      - "80:80"
+    links:
+      - mysql
+    mem_limit: 524288000
+  mysql:
+    image: mysql
+    mem_limit: 524288000
+    environment:
+      MYSQL_ROOT_PASSWORD: UnSecUr3dPassW0rd!
+      MYSQL_DATABASE: generatedata

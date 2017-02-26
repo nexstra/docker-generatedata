@@ -1,10 +1,8 @@
 web:
-  build: .
+  image: dockergeneratedata_web
   command: /run.sh
-  ports:
+  ports: 
     - "80:80"
-  volumes:
-    - ./app:/app
   links:
     - mysql
 mysql:

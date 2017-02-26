@@ -1,0 +1,13 @@
+{
+    "registryId": "114709661826",
+    "repositoryName": "generatedata_web",
+    "imageIds": [
+        {
+            "imageTag": "latest",
+            "imageDigest": "sha256:bedaa74fb68371d2917991858bb89a29fcb94134a24dec8476116f3b15e01f6d"
+        },
+        {
+            "imageDigest": "sha256:0953094a285a3779a56082247c3acdff2841dacc27045808a11dcfb000895c6f"
+        }
+    ]
+}
